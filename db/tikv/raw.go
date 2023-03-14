@@ -20,10 +20,10 @@ import (
 
 	"github.com/magiconair/properties"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/go-ycsb/pkg/util"
-	"github.com/pingcap/go-ycsb/pkg/ycsb"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/tikv/client-go/v2/rawkv"
+	"github.com/yizhuoliang/go-ycsb/pkg/util"
+	"github.com/yizhuoliang/go-ycsb/pkg/ycsb"
 )
 
 type rawDB struct {

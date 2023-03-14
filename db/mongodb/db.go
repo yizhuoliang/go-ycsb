@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/magiconair/properties"
-	"github.com/pingcap/go-ycsb/pkg/ycsb"
+	"github.com/yizhuoliang/go-ycsb/pkg/ycsb"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

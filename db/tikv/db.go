@@ -17,8 +17,8 @@ import (
 	"fmt"
 
 	"github.com/magiconair/properties"
-	"github.com/pingcap/go-ycsb/pkg/ycsb"
 	"github.com/tikv/client-go/v2/config"
+	"github.com/yizhuoliang/go-ycsb/pkg/ycsb"
 )
 
 const (

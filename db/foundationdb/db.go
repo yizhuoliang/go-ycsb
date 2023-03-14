@@ -21,8 +21,8 @@ import (
 
 	"github.com/apple/foundationdb/bindings/go/src/fdb"
 	"github.com/magiconair/properties"
-	"github.com/pingcap/go-ycsb/pkg/util"
-	"github.com/pingcap/go-ycsb/pkg/ycsb"
+	"github.com/yizhuoliang/go-ycsb/pkg/util"
+	"github.com/yizhuoliang/go-ycsb/pkg/ycsb"
 )
 
 const (

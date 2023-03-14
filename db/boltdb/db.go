@@ -35,9 +35,9 @@ import (
 
 	"github.com/boltdb/bolt"
 	"github.com/magiconair/properties"
-	"github.com/pingcap/go-ycsb/pkg/prop"
-	"github.com/pingcap/go-ycsb/pkg/util"
-	"github.com/pingcap/go-ycsb/pkg/ycsb"
+	"github.com/yizhuoliang/go-ycsb/pkg/prop"
+	"github.com/yizhuoliang/go-ycsb/pkg/util"
+	"github.com/yizhuoliang/go-ycsb/pkg/ycsb"
 )
 
 // properties
