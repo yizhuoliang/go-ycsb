@@ -11,8 +11,10 @@ import (
 )
 
 const (
-	pcSerial = "paxos.serial"
-	pcSimon  = "paxos.simon"
+	pcSerial       = "paxos.serial"
+	pcSimon        = "paxos.simon"
+	pcReplicaPort0 = "paxos.replica-port0"
+	pcReplicaPort1 = "paxos.replica-port1"
 )
 
 type paxosDB struct {
@@ -24,7 +26,10 @@ type paxosCreator struct{}
 func (c paxosCreator) Create(p *properties.Properties) (ycsb.DB, error) {
 	serial := p.GetInt(pcSerial, 0)
 	simon := p.GetInt(pcSimon, 0)
-	client := pc.NewPaxosClient(serial, simon)
+	replicaPorts := make([]string, 2)
+	replicaPorts[0] = p.GetString(pcReplicaPort0, "127.0.0.1:50053")
+	replicaPorts[1] = p.GetString(pcReplicaPort1, "127.0.0.1:50054")
+	client := pc.NewPaxosClient(serial, simon, replicaPorts)
 	return &paxosDB{db: client}, nil
 }
 
