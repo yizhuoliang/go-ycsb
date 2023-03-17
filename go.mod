@@ -42,7 +42,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.10.0
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.4.26
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.17.1
-	github.com/yizhuoliang/gopaxos v0.0.0-20230317054550-fdb969d6f088
+	github.com/yizhuoliang/gopaxos v0.0.0-20230317181237-77e0ae0bd579
 	go.etcd.io/etcd/client/pkg/v3 v3.5.2
 	go.etcd.io/etcd/client/v3 v3.5.2
 )
