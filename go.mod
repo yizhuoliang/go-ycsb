@@ -23,7 +23,6 @@ require (
 	github.com/gocql/gocql v0.0.0-20181124151448-70385f88b28b
 	github.com/lib/pq v1.1.1
 	github.com/magiconair/properties v1.8.0
-	github.com/mattn/go-sqlite3 v2.0.1+incompatible
 	github.com/minio/minio-go v6.0.14+incompatible
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/pingcap/errors v0.11.5-0.20211224045212-9687c2b0f87c
@@ -43,7 +42,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.10.0
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.4.26
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.17.1
-	github.com/yizhuoliang/gopaxos v0.0.0-20230314155851-9908a339621a
+	github.com/yizhuoliang/gopaxos v0.0.0-20230315185617-df2b45d2d000
 	go.etcd.io/etcd/client/pkg/v3 v3.5.2
 	go.etcd.io/etcd/client/v3 v3.5.2
 )

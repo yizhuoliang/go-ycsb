@@ -58,8 +58,6 @@ import (
 	_ "github.com/yizhuoliang/go-ycsb/db/spanner"
 	// Register pegasus database
 	_ "github.com/yizhuoliang/go-ycsb/db/pegasus"
-	// Register sqlite database
-	_ "github.com/yizhuoliang/go-ycsb/db/sqlite"
 	// Register cassandra database
 	_ "github.com/yizhuoliang/go-ycsb/db/cassandra"
 	// Register mongodb database

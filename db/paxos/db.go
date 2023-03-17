@@ -11,8 +11,8 @@ import (
 )
 
 const (
-	pcSerial = "pc.serial"
-	pcSimon  = "pc.simon"
+	pcSerial = "paxos.serial"
+	pcSimon  = "paxos.simon"
 )
 
 type paxosDB struct {
@@ -68,5 +68,5 @@ func (db *paxosDB) Scan(ctx context.Context, table string, startKey string, coun
 }
 
 func init() {
-	ycsb.RegisterDBCreator("pc", paxosCreator{})
+	ycsb.RegisterDBCreator("paxos", paxosCreator{})
 }

@@ -433,8 +433,6 @@ github.com/markbates/oncer v0.0.0-20181203154359-bf2de49a0be2/go.mod h1:Ld9puTsI
 github.com/markbates/safe v1.0.1/go.mod h1:nAqgmRi7cY2nqMc92/bSEeQA+R4OheNU2T1kNSCBdG0=
 github.com/mattn/go-runewidth v0.0.9 h1:Lm995f3rfxdpd6TSmuVCHVb/QhupuXlYr8sCI/QdE+0=
 github.com/mattn/go-runewidth v0.0.9/go.mod h1:H031xJmbD/WCDINGzjvQ9THkh0rPKHF+m2gUSrubnMI=
-github.com/mattn/go-sqlite3 v2.0.1+incompatible h1:xQ15muvnzGBHpIpdrNi1DA5x0+TcBZzsIDwmw9uTHzw=
-github.com/mattn/go-sqlite3 v2.0.1+incompatible/go.mod h1:FPy6KqzDD04eiIsT53CuJW3U88zkxoIYsOqkbpncsNc=
 github.com/matttproud/golang_protobuf_extensions v1.0.1 h1:4hp9jkHxhMHkqkrB3Ix0jegS5sx/RkqARlsWZ6pIwiU=
 github.com/matttproud/golang_protobuf_extensions v1.0.1/go.mod h1:D8He9yQNgCq6Z5Ld7szi9bcBfOoFv/3dc6xSMkL2PC0=
 github.com/minio/minio-go v6.0.14+incompatible h1:fnV+GD28LeqdN6vT2XdGKW8Qe/IfjJDswNVuni6km9o=
@@ -578,8 +576,12 @@ github.com/xdg-go/stringprep v1.0.2 h1:6iq84/ryjjeRmMJwxutI51F2GIPlP5BfTvXHeYjyh
 github.com/xdg-go/stringprep v1.0.2/go.mod h1:8F9zXuvzgwmyT5DUm4GUfZGDdT3W+LCvS6+da4O5kxM=
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q53MR2AWcXfiuqkDkRtnGDLqkBTpCHuJHxtU=
 github.com/xordataexchange/crypt v0.0.3-0.20170626215501-b2862e3d0a77/go.mod h1:aYKd//L2LvnjZzWKhF00oedf4jCCReLcmhLdhm1A27Q=
-github.com/yizhuoliang/gopaxos v0.0.0-20230314155851-9908a339621a h1:6aYdzUmGivMmwdQ+nQiOq28Llgfilob3pJhhtEkddF8=
-github.com/yizhuoliang/gopaxos v0.0.0-20230314155851-9908a339621a/go.mod h1:NirMxPeBkaPTK3SKzRvvFbBbRuEec8/naRH+sUDXupQ=
+github.com/yizhuoliang/gopaxos v0.0.0-20230315151926-642401cafcf6 h1:isjCbsnoz+K/sVnhifOfVqluIC3PDcvSlqoPhUWgNWM=
+github.com/yizhuoliang/gopaxos v0.0.0-20230315151926-642401cafcf6/go.mod h1:NirMxPeBkaPTK3SKzRvvFbBbRuEec8/naRH+sUDXupQ=
+github.com/yizhuoliang/gopaxos v0.0.0-20230315154254-f4630d14947a h1:I0LX77ofkebodCX7bYFrGrB5hBDzS/RBbQqa10xMeAc=
+github.com/yizhuoliang/gopaxos v0.0.0-20230315154254-f4630d14947a/go.mod h1:NirMxPeBkaPTK3SKzRvvFbBbRuEec8/naRH+sUDXupQ=
+github.com/yizhuoliang/gopaxos v0.0.0-20230315185617-df2b45d2d000 h1:24bldWzKsNLDZHxqQviOWTPKOyIDe62ntx7c+4rElzw=
+github.com/yizhuoliang/gopaxos v0.0.0-20230315185617-df2b45d2d000/go.mod h1:NirMxPeBkaPTK3SKzRvvFbBbRuEec8/naRH+sUDXupQ=
 github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d h1:splanxYIlg+5LfHAM6xpdFEAYOk8iySO56hMFq6uLyA=
 github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d/go.mod h1:rHwXgn7JulP+udvsHwJoVG1YGAP6VLg4y9I5dyZdqmA=
 github.com/yuin/goldmark v1.1.25/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
