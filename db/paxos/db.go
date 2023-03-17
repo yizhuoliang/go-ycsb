@@ -27,7 +27,7 @@ func (c paxosCreator) Create(p *properties.Properties) (ycsb.DB, error) {
 	serial := p.GetInt(pcSerial, 0)
 	simon := p.GetInt(pcSimon, 0)
 	replicaPorts := make([]string, 2)
-	replicaPorts[0] = p.GetString(pcReplicaPort0, "127.0.0.1:50053")
+	replicaPorts[0] = p.GetString(pcReplicaPort0, "128.110.218.71")
 	replicaPorts[1] = p.GetString(pcReplicaPort1, "127.0.0.1:50054")
 	client := pc.NewPaxosClient(serial, simon, replicaPorts)
 	return &paxosDB{db: client}, nil
