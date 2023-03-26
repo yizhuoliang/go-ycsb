@@ -580,6 +580,10 @@ github.com/yizhuoliang/gopaxos v0.0.0-20230324191521-219d663161cf h1:/bPWuF3Ws6/
 github.com/yizhuoliang/gopaxos v0.0.0-20230324191521-219d663161cf/go.mod h1:NirMxPeBkaPTK3SKzRvvFbBbRuEec8/naRH+sUDXupQ=
 github.com/yizhuoliang/gopaxos v0.0.0-20230324194953-2cdb5176a494 h1:ZJg8V8G1xonoYX8PIBTkKUqP9G3eh+P+svq2LLiiULI=
 github.com/yizhuoliang/gopaxos v0.0.0-20230324194953-2cdb5176a494/go.mod h1:NirMxPeBkaPTK3SKzRvvFbBbRuEec8/naRH+sUDXupQ=
+github.com/yizhuoliang/gopaxos v0.0.0-20230324205942-1c1fb9835bbb h1:NmdWjuTexq7LUBf3Yg7kFDzzTj8Be3uw0GsosckRciA=
+github.com/yizhuoliang/gopaxos v0.0.0-20230324205942-1c1fb9835bbb/go.mod h1:NirMxPeBkaPTK3SKzRvvFbBbRuEec8/naRH+sUDXupQ=
+github.com/yizhuoliang/gopaxos v0.0.0-20230326164810-f7c3d0c67c8c h1:n97CT85XcMP00ALSeitMrqCWqnZGvjE+JQcYJRdapvA=
+github.com/yizhuoliang/gopaxos v0.0.0-20230326164810-f7c3d0c67c8c/go.mod h1:NirMxPeBkaPTK3SKzRvvFbBbRuEec8/naRH+sUDXupQ=
 github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d h1:splanxYIlg+5LfHAM6xpdFEAYOk8iySO56hMFq6uLyA=
 github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d/go.mod h1:rHwXgn7JulP+udvsHwJoVG1YGAP6VLg4y9I5dyZdqmA=
 github.com/yuin/goldmark v1.1.25/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
