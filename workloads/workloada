@@ -23,15 +23,15 @@
 #   Request distribution: zipfian
 
 recordcount=0
-operationcount=500
+operationcount=2000
 workload=core
 
 readallfields=true
 
 readproportion=0.5
-updateproportion=0
+updateproportion=0.25
 scanproportion=0
-insertproportion=0.5
+insertproportion=0.25
 
 requestdistribution=uniform
 fieldcount=1
