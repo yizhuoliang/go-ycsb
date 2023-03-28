@@ -3,6 +3,7 @@ package paxos
 import (
 	"context"
 	"errors"
+	"sync/atomic"
 
 	// "pc" for "paxos client"
 	"github.com/magiconair/properties"
@@ -21,15 +22,20 @@ type paxosDB struct {
 	db *pc.Client
 }
 
-type paxosCreator struct{}
+type paxosCreator struct {
+	clientNum int32
+}
 
 func (c paxosCreator) Create(p *properties.Properties) (ycsb.DB, error) {
-	serial := p.GetInt(pcSerial, 0)
+	atomic.AddInt32(&c.clientNum, 1)
+	// serial := p.GetInt(pcSerial, 0)
 	simon := p.GetInt(pcSimon, 0)
 	replicaPorts := make([]string, 2)
 	replicaPorts[0] = p.GetString(pcReplicaPort0, "128.110.218.130:50051")
 	replicaPorts[1] = p.GetString(pcReplicaPort1, "128.110.218.0:50052")
-	client := pc.NewPaxosClient(serial, simon, replicaPorts)
+	// replicaPorts[0] = p.GetString(pcReplicaPort0, "localhost:50053")
+	// replicaPorts[1] = p.GetString(pcReplicaPort1, "localhost:50054")
+	client := pc.NewPaxosClient(int(c.clientNum), simon, replicaPorts)
 	return &paxosDB{db: client}, nil
 }
 
