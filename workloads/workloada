@@ -35,7 +35,7 @@ insertproportion=1
 
 requestdistribution=uniform
 fieldcount=1
-fieldlength=10240
+fieldlength=128
 threadcount=10
 
 paxos.serial=1
